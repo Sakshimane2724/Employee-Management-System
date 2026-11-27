@@ -36,32 +36,43 @@ A web-based Employee Management System built using Java, Spring Boot, Spring Dat
 
 ## Project Structure
 
-EmployeeManagementSystem/
-│
-├── src/
-│   ├── main/
-│   │   ├── java/com/MainApp/
-│   │   │   ├── Controller/
-│   │   │   ├── Entity/
-│   │   │   ├── Repository/
-│   │   │   ├── Service/
-│   │   │   └── EmployeeManagementSystemApplication.java
-│   │   │
-│   │   ├── resources/
-│   │   │   └── application.properties
-│   │   │
-│   │   └── webapp/
-│   │       ├── Home.jsp
-│   │       ├── Login.jsp
-│   │       └── Registration.jsp
-│   │
-│   └── test/
-│
-├── .gitignore
-├── mvnw
-├── mvnw.cmd
-├── pom.xml
-└── README.md
+## Project Structure
+
+| Folder / File |
+|---|
+| **EmployeeManagementSystem** |
+| ├── src |
+| │   ├── main |
+| │   │   ├── java |
+| │   │   │   └── com.MainApp |
+| │   │   │       ├── Controller |
+| │   │   │       │   ├── EmployeeCrud.java |
+| │   │   │       │   └── RegisterLoginLogout.java |
+| │   │   │       ├── Entity |
+| │   │   │       │   ├── Employee.java |
+| │   │   │       │   └── User.java |
+| │   │   │       ├── Repository |
+| │   │   │       │   ├── EmployeeRepository.java |
+| │   │   │       │   └── UserRepository.java |
+| │   │   │       ├── Service |
+| │   │   │       │   ├── EmployeeService.java |
+| │   │   │       │   └── UserService.java |
+| │   │   │       └── EmployeeManagementSystemApplication.java |
+| │   │   ├── resources |
+| │   │   │   └── application.properties |
+| │   │   └── webapp |
+| │   │       ├── Home.jsp |
+| │   │       ├── Login.jsp |
+| │   │       ├── Registration.jsp |
+| │   │       └── images |
+| │   └── test |
+| ├── screenshots |
+| ├── .mvn |
+| ├── .gitignore |
+| ├── mvnw |
+| ├── mvnw.cmd |
+| ├── pom.xml |
+└── README.md |
 
 ## Prerequisites
 
@@ -85,7 +96,7 @@ CREATE DATABASE myproject;
 
 1. Clone this repository:
 
-git clone YOUR_GITHUB_REPOSITORY_URL
+    git clone YOUR_GITHUB_REPOSITORY_URL
 
 2. Open Eclipse.
 3. Select **File → Import → Maven → Existing Maven Projects**.
