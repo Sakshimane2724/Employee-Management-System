@@ -96,8 +96,7 @@ CREATE DATABASE myproject;
 
 1. Clone this repository:
 
-    git clone YOUR_GITHUB_REPOSITORY_URL
-
+    git clone https://github.com/Sakshimane2724/Employee-Management-System
 2. Open Eclipse.
 3. Select **File → Import → Maven → Existing Maven Projects**.
 4. Select the cloned project directory.
@@ -140,3 +139,4 @@ Sakshi Deepak Mane
 
 Java Full Stack Developer
 
+https://github.com/Sakshimane2724
