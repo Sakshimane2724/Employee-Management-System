@@ -36,8 +36,6 @@ A web-based Employee Management System built using Java, Spring Boot, Spring Dat
 
 ## Project Structure
 
-## Project Structure
-
 | Folder / File |
 |---|
 | **EmployeeManagementSystem** |
